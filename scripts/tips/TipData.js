@@ -1,4 +1,4 @@
-const fishes = [
+const tipCollection = [
     {
         catchOrder: 0,
         image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Dumbo-hires_%28cropped%29.jpg",
@@ -121,4 +121,7 @@ const fishes = [
     },
 ]
 
-export { fishes };
+// This is new code. Add this.
+export const getTip = () => {
+    return tipCollection
+}
